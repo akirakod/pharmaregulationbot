@@ -1,6 +1,6 @@
 # FDA Regulation RAG Chatbot
 
-A sophisticated Retrieval-Augmented Generation (RAG) chatbot designed to help pharmaceutical professionals navigate FDA regulations. Instead of manually searching through thousands of pages of FDA Title 21 documents, users can ask questions and receive contextually relevant, accurate answers.
+The Retrieval-Augmented Generation (RAG) chatbot is designed to help pharmaceutical professionals navigate FDA regulations. Instead of manually searching through thousands of pages of FDA Title 21 documents, users can ask questions and receive contextually relevant, accurate answers.
 
 ## 🎯 Problem Statement
 
