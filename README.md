@@ -1,10 +1,10 @@
 # FDA Regulation RAG Chatbot
 
-A sophisticated Retrieval-Augmented Generation (RAG) chatbot designed to help pharmaceutical professionals navigate complex FDA regulations. Instead of manually searching through thousands of pages of FDA Title 21 documents, users can ask questions and receive contextually relevant, accurate answers.
+A sophisticated Retrieval-Augmented Generation (RAG) chatbot designed to help pharmaceutical professionals navigate FDA regulations. Instead of manually searching through thousands of pages of FDA Title 21 documents, users can ask questions and receive contextually relevant, accurate answers.
 
 ## 🎯 Problem Statement
 
-Pharmaceutical professionals face challenges navigating complex FDA regulations scattered across thousands of pages. This RAG chatbot provides instant, contextually accurate answers to regulatory questions, dramatically reducing research time and improving compliance efficiency.
+Pharmaceutical professionals face challenges navigating complex FDA regulations scattered across thousands of pages. This RAG chatbot provides instant, contextually accurate answers to regulatory questions, reducing research time and improving compliance efficiency.
 
 ## 🏗️ Architecture Overview
 
@@ -84,8 +84,6 @@ rag-chatbot/
 │       │   └── llm_service.py
 │       ├── app.py            # Flask entry point
 │       └── requirements.txt  # Python dependencies
-└── data/
-    └── fda_documents/        # Processed FDA Title 21 HTML files
 ```
 
 ## 🤝 Contributing
@@ -99,18 +97,3 @@ rag-chatbot/
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- Google Cloud Vertex AI for enterprise-grade AI services
-- BeautifulSoup for robust HTML parsing
-- Font Awesome and Boxicons for professional iconography
-- Google Fonts for modern typography
-
-## 📞 Support
-
-For questions or support, please open an issue in the GitHub repository.
-
----
-
-**Built with ❤️ for pharmaceutical professionals navigating FDA regulations**
