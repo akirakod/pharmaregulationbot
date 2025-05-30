@@ -1,0 +1,37 @@
+.container {
+    height: 100%;
+    display: flex;
+}
+
+.sideNavigation {
+    width: 350px;
+    background: linear-gradient(to bottom, #007B7F, #E6F4F1);
+    padding: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.sideNavigation.expandClose {
+    width: 68px;
+    background-color: #34A0A4;
+}
+
+.chatWindow {
+    width: 100%;
+    margin: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.chatWindow .startContent {
+    min-width: 830px;
+}
+
+.chatWindow .chatContent {
+    overflow-y: scroll;
+    width: 900px;
+    height: 650px;
+}
+
+.chatWindow .chatContent::-webkit-scrollbar {
+    display: none;
+}

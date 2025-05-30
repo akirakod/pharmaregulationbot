@@ -1,0 +1,105 @@
+.sideNavigation .topBarAction {
+    margin: 15px;
+    cursor: pointer;
+}
+
+.sideNavigation .topBarAction i {
+    font-size: 18px;
+}
+
+.sideNavigation .sideNavButton {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.sideNavigation .sideNavButton button {
+    height: 40px;
+    width: 140px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background: rgb(196, 192, 192);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.sideNavigation.expandClose .sideNavButton button,
+.sideNavigation.expandClose .actionList button {
+    width: 45px;
+    text-align: center;
+}
+
+.sideNavigation .chatHistory {
+    max-height: 250px;
+    overflow-y: scroll;
+}
+
+.sideNavigation .chatHistory::-webkit-scrollbar {
+    display: none;
+}
+
+.sideNavigation .chatHistory h5 {
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    margin: 15px 15px;
+}
+
+.sideNavigation .chatHistory li {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    display: inline-block;
+    width: 225px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sideNavigation .chatHistory i {
+    padding-right: 10px;
+}
+
+.sideNavigation .chatHistory li:hover {
+    background-color: rgb(196, 192, 192);
+}
+
+.sideNavigation .actionList {
+    position: fixed;
+    bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sideNavigation .actionList button {
+    margin: 1px;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: left;
+    border: none;
+    outline: none;
+    width: 230px;
+    cursor: pointer;
+    background: transparent;
+    transition: 0.3s;
+}
+
+.sideNavigation .actionList button:hover {
+    background-color: rgb(196, 192, 192);
+}
+
+.sideNavigation .actionList button .collapseText {
+    padding: 0 10px;
+}
+
+.sideNavigation.expandClose .collapseText,
+.sideNavigation.expandClose .chatHistory,
+.chatWindow .chatContent {
+    display: none;
+}
